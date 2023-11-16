@@ -14,25 +14,25 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     anon = math.floor(percentage)
     if 0 < anon <= 10:
-        bar = "◉————JIO SAVAN————"
+        bar = "◉————Laila music————"
     elif 10 < anon < 20:
-        bar = "—◉———JIO SAVAN————"
+        bar = "—◉———Laila music————"
     elif 20 <= anon < 30:
-        bar = "——◉——JIO SAVAN————"
+        bar = "——◉——Laila music————"
     elif 30 <= anon < 40:
-        bar = "———◉—JIO SAVAN———"
+        bar = "———◉—Laila music———"
     elif 40 <= anon < 50:
-        bar = "————◉JIO SAVAN————"
+        bar = "————◉Laila music————"
     elif 50 <= anon < 60:
-        bar = "————JIO SAVAN———"
+        bar = "————Laila music———"
     elif 60 <= anon < 70:
-        bar = "————JIO SAVAN———"
+        bar = "————Laila music———"
     elif 70 <= anon < 80:
-        bar = "————JIO SAVAN—◉——"
+        bar = "————Laila music—◉——"
     elif 80 <= anon < 95:
-        bar = "———JIO SAVAN——◉—"
+        bar = "———Laila music——◉—"
     else:
-        bar = "————JIO SAVAN————◉"
+        bar = "————Laila music————◉"
 
     buttons = [
         [
@@ -61,7 +61,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="🔕 𝗖𝗵𝗮𝘁 𝗚𝗿𝗼𝘂𝗽🏋️‍♀️", url="https://t.me/pagal_faimly"
+                text="🔕 𝗖𝗵𝗮𝘁 𝗚𝗿𝗼𝘂𝗽🏋️‍♀️", url="https://t.me/GilletringPrincessXd"
             ),
         ],
         [
@@ -79,25 +79,25 @@ def telegram_markup_timer(_, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     anon = math.floor(percentage)
     if 0 < anon <= 10:
-        bar = "◉———JIO SAVAN———"
+        bar = "◉———Laila music———"
     elif 10 < anon < 20:
-        bar = "—◉———JIO SAVAN————"
+        bar = "—◉———Laila music————"
     elif 20 <= anon < 30:
-        bar = "——◉——JIO SAVAN———"
+        bar = "——◉——Laila music———"
     elif 30 <= anon < 40:
-        bar = "———◉JIO SAVAN————"
+        bar = "———◉Laila music————"
     elif 40 <= anon < 50:
-        bar = "————JIO SAVAN————"
+        bar = "————Laila music————"
     elif 50 <= anon < 60:
-        bar = "————JIO SAVAN◉————"
+        bar = "————Laila music◉————"
     elif 60 <= anon < 70:
-        bar = "————JIO SAVAN◉———"
+        bar = "————Laila music◉———"
     elif 70 <= anon < 80:
-        bar = "————JIO SAVAN——◉——"
+        bar = "————Laila music——◉——"
     elif 80 <= anon < 95:
-        bar = "————JIO SAVAN———◉—"
+        bar = "————Laila music———◉—"
     else:
-        bar = "—JIO SAVAN—————◉"
+        bar = "—Laila music—————◉"
 
     buttons = [
         [
@@ -123,7 +123,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="🏵️ 𝗖𝗵𝗮𝘁 𝗚𝗿𝗼𝘂𝗽🌺", url="https://t.me/pagal_faimly"
+                text="🏵️ 𝗖𝗵𝗮𝘁 𝗚𝗿𝗼𝘂𝗽🌺", url="https://t.me/GilletringPrincessXd"
             ),
         ],
         [
@@ -157,7 +157,7 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="𝗖𝗵𝗮𝘁 𝗚𝗿𝗼𝘂𝗽➡️", url="https://t.me/pagal_faimly"
+                text="𝗖𝗵𝗮𝘁 𝗚𝗿𝗼𝘂𝗽➡️", url="https://t.me/GilletringPrincessXd"
             ),
         ],
         [
@@ -188,7 +188,7 @@ def telegram_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="⏮️ 𝗖𝗵𝗮𝘁 𝗚𝗿𝗼𝘂𝗽▶️", url="https://t.me/pagal_faimly"
+                text="⏮️ 𝗖𝗵𝗮𝘁 𝗚𝗿𝗼𝘂𝗽▶️", url="https://t.me/GilletringPrincessXd"
             ),
         ],
         [
@@ -348,7 +348,7 @@ def queue_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="🍷 𝗖𝗵𝗮𝘁 𝗚𝗿𝗼𝘂𝗽🍷", url="https://t.me/pagal_faimly"
+                text="🍷 𝗖𝗵𝗮𝘁 𝗚𝗿𝗼𝘂𝗽🍷", url="https://t.me/GilletringPrincessXd"
             ),
         ],
         [
